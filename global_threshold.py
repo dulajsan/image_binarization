@@ -5,7 +5,7 @@ import numpy as np
 #method 1 - global  thresold
 
 #read the image , 2nd parameter- cv.IMREAD_GRAYSCALE
-img=cv.imread('OpenCV_Logo.png',0)
+img=cv.imread('table.png',0)
 ret,thresh=cv.threshold(img,127,255,cv.THRESH_BINARY)
 
 
